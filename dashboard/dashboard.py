@@ -27,7 +27,7 @@ def create_seasonal_rentals_df(df):
     season_rentals_df["season"] = season_rentals_df["season"].map(season_mapping)
     return season_rentals_df
 # Load cleaned data
-all_df = pd.read_csv("hour.csv")
+all_df = pd.read_csv("data/hour.csv")
 
 # Pastikan 'dteday' dalam format datetime
 all_df["dteday"] = pd.to_datetime(all_df["dteday"])
