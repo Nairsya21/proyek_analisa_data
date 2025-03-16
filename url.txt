@@ -1,1 +1,1 @@
-https://github.com/Nairsya21/proyek_analisa_data
+https://nairsya21-proyek-analisa-data-dashboarddashboard-denjqk.streamlit.app/
